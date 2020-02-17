@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--David Hall, CS 312, Module 5 Review-->
+    <title>David Hall Module 5 Review</title>
+  </head>
+  <body>
+    <h1>T-Town Car Rental</h1>
+    <h2>Car Rental Tips Video</h2>
+    <iframe
+      width="230"
+      height="125"
+      src="https://www.youtube.com/embed/In8H6gKWh9c?rel=0"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Car Rental Reservation Form</h2>
+    <form action="http://webdevbasics.net/scripts/demo.php" method="POST">
+      <fieldset>
+        <legend>Renter Information</legend>
+
+        <label for="name">Full Name</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Last, First Middle"
+        />
+        <br /><br />
+        <label for="number">Phone Number</label>
+        <input
+          id="number"
+          name="number"
+          type="tel"
+          placeholder="(xxx)xxx-xxxx"
+        />
+        <br /><br />
+        <label for="birthday">Birthday</label>
+        <input id="birthday" name="birthday" type="date" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Car Preference</legend>
+
+        <input id="compact" name="preference" type="radio" />
+        <label for="compact">Compact</label>
+        <br />
+        <input id="small" name="preference" type="radio" />
+        <label for="small">Small</label>
+        <br />
+        <input id="mids" name="preference" type="radio" checked />
+        <label for="mids">Mid-size</label>
+        <br />
+        <input id="fulls" name="preference" type="radio" />
+        <label for="fulls">Full-size</label>
+        <br />
+        <input id="lux" name="preference" type="radio" />
+        <label for="lux">Luxury</label>
+        <br />
+        <input id="van" name="preference" type="radio" />
+        <label for="van">Van</label>
+        <br />
+        <input id="suv" name="preference" type="radio" />
+        <label for="suv">SUV/Crossover</label>
+        <br /><br />
+
+        <label>Features</label>
+        <br />
+        <input id="air" name="features" type="checkbox" />
+        <label for="air">Rear Heat/Air</label>
+        <br />
+        <input id="radio" name="features" type="checkbox" />
+        <label for="radio">Satellite Radio</label>
+        <br />
+        <input id="roof" name="features" type="checkbox" />
+        <label for="roof">Sunroof</label>
+        <br />
+        <input id="nav" name="features" type="checkbox" />
+        <label for="nav">In-Dash Navigation</label>
+        <br />
+        <input id="seat" name="features" type="checkbox" />
+        <label for="seat">Heated Seats</label>
+        <br />
+        <input id="eco" name="features" type="checkbox" />
+        <label for="eco">Eco Package</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Survey</legend>
+
+        <label>How would you rate our site on a scale of 1 to 10?</label>
+        <br />
+        <label>1</label><input type="range" min="1" max="10" /><label>10</label>
+        <br />
+        <label>Choose your favorite color.</label>
+        <br />
+        <input type="color" />
+        <br />
+        <input type="submit" value="Submit my reservation" />
+      </fieldset>
+    </form>
+  </body>
+</html>
