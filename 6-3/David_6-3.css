@@ -1,0 +1,22 @@
+/* David Hall 02-24-20 */
+
+body {
+	background-color: #CCCCCC;
+}
+
+p {
+	font-family: Arial;
+}
+
+span {
+	color:  #0000ff;
+	font-family: serif;
+}
+
+#sale {
+	color: #FF0000;
+}
+
+h2 {
+	font-family: Georgia;
+}
