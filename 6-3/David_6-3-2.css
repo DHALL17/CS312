@@ -1,0 +1,27 @@
+/* David Hall 02-26-20 */
+
+body {
+    background-color: #3d5af1;
+}
+
+.day {
+    font-style: italic;
+    font-family: Arial;
+}
+
+h1.day {
+    color: #FFFFFF;
+}
+
+a:link {
+    color: #22d1ee;
+}
+a:visited {
+    color: #e2f3f5;
+}
+a:hover {
+    color: #FFFFFF;
+}
+a:active {
+    color: #444444;
+}
