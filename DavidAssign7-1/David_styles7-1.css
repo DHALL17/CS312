@@ -1,0 +1,14 @@
+/* David Hall, 03-02-20 */
+
+body {
+    background-image: url('tile.jpg');
+    background-repeat: repeat-x;
+}
+
+p {
+    color: #444444;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+}
