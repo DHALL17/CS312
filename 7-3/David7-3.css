@@ -1,0 +1,18 @@
+/* David Hall 03-11-20 */
+body {
+    background-color: #f0f0f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF00;
+}
+
+ol > li {
+    font-weight: bold;
+}
+
+ul > li {
+    font-style: italic;
+}
